@@ -1,0 +1,19 @@
+{
+  "name": "twitch-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Stefan Rimaila <stefan@rimaila.fi>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "kefir": "^3.8.0",
+    "nodemon": "^1.12.1",
+    "partial.lenses": "^13.1.1",
+    "ramda": "^0.25.0",
+    "tcomb": "^3.2.24",
+    "tmi.js": "^1.2.1",
+    "ws": "^3.3.2"
+  }
+}
